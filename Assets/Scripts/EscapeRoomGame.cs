@@ -89,7 +89,7 @@ public class EscapeRoomGame : MonoBehaviour
         switch (stage)
         {
             case EscapeStage.CollectHerbs:
-                return $"Find the {herbsRequired} herbs in the rooms\nof the maze and drop them\ninto the cauldron  ({HerbsAdded}/{herbsRequired})";
+                return $"Find the herb, the Eye of Aragon\nand the finger in the maze rooms\nand drop them into the cauldron  ({HerbsAdded}/{herbsRequired})";
             case EscapeStage.CastSpell:
                 return "The brew is ready!\nGrab the wand and wave it\nover the cauldron";
             case EscapeStage.FillFlask:
